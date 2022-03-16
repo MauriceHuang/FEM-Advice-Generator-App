@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/reset.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script defer src="./script.js"></script>
   <title>Frontend Mentor | Advice generator app</title>
 
 </head>
-<body>
-<div class="main">
-  <p class="adviceid">Advice #117</p>
 
- <p class="advice">
-   "Here is the advice!"
-  </p> 
-  <img src="images/pattern-divider-desktop.svg" alt="divider">
-</div>
+<body>
+  <div class="advice-generator">
+
+    <div class="advice-generator__output">
+      <span class="advice-generator__advice-number">Advice #118</span>
+      <q class="advice-generator__quote">"Aliquip esse culpa consequat eiusmod Lorem esse excepteur exercitation ex ullamco."</q>
+
+      <picture class="advice-generator__divider">
+        <source media="(min-width:545px)" srcset="./images/pattern-divider-desktop.svg">
+        <img src="./images/pattern-divider-mobile.svg" alt="divider line vector">
+
+      </picture>
+    </div>
+    <button class="advice-generator__btn">
+      <img src="./images/icon-dice.svg" alt="dice icon" class="advice-generator__btn-img">
+    </button>
+  </div>
 </body>
+
 </html>
