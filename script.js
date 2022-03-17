@@ -7,6 +7,7 @@ const fetchNewAdvice =async()=>{
     const response =await fetch(advice_api);
     const advice=await response.json();
 return advice;
+alert(advice)
 };
 const renderAdvice=(adviceObj)=>{
 const{id,advice}=adviceObj;
