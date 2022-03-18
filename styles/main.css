@@ -15,6 +15,7 @@ body {
   max-width: 54rem;
   display: grid;
   grid: max-content 3.2rem / 1fr;
+  justify-items: center;
 }
 
 .advice-generator__output {
@@ -29,6 +30,7 @@ body {
   grid-row: 1/2;
   grid-column: 1/2;
   border-radius: 1.5rem;
+  width: 90%;
 }
 
 @media screen and (min-width: 545px) {
